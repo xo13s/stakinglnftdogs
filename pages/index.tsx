@@ -9,18 +9,18 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>L2NFTOG Staking Rewards</h1>
+      <h1 className={styles.h1}>NFTEarth NFT Staking Rewards</h1>
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/mint`)}
+          onClick={() => router.push(`/stake`)}
         >
-          {/* Acuire L2NFTOG NFT */}
+          {/* Acquire L2NFTOG NFT */}
           <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
           <h2 className={styles.selectBoxTitle}>Get an L2NFTOG NFT</h2>
           <p className={styles.selectBoxDescription}>
-            NFTEarth 
+            Buy on NFTEarth 
           </p>
         </div>
 
