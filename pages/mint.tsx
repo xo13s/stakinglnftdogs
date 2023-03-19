@@ -1,7 +1,5 @@
-import { Web3Button } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import { nftDropContractAddress } from "../consts/contractAddresses";
 import styles from "../styles/Home.module.css";
 
 const Mint: NextPage = () => {
@@ -31,7 +29,11 @@ const Mint: NextPage = () => {
           padding: "20px",
           color: "white",
           borderRadius: "20px",
+          transition: "background-color 0.3s ease-in-out",
+          cursor: 'pointer'
         }}
+        onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = "#333"}
+        onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = "#000"}
         onClick={() => router.push(`https://nftearth.exchange/explore`)}
       >
         Purchase an NFT on NFTEarth
