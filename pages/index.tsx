@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
-          <Image src="/icons/drop.png" alt="drop" width={64} height={64} />
+          <Image src="/icons/drop.svg" alt="drop" width={128} height={128} />
           <h2 className={styles.selectBoxTitle}>Need an Earthling? Mint one here.</h2>
           <p className={styles.selectBoxDescription}>
             Mint an Earthling here.
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/stake`)}
         >
           {/* Staking an NFT */}
-          <Image src="/icons/token.png" alt="token" width={64} height={64} />
+          <Image src="/icons/token.svg" alt="token" width={128} height={128} />
           <h2 className={styles.selectBoxTitle}>Stake Your Earthling NFT</h2>
           <p className={styles.selectBoxDescription}>
             Stake your Earthling NFT for juicy NFTE rewards to enjoy the start of NFTFi summer on Arbitrum.

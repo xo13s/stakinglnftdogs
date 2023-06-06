@@ -14,7 +14,9 @@ const Mint: NextPage = () => {
       <p className={styles.explain}>
         Mint one of the limited supply Earthling NFTs! 
         <br>
-        </br> It will be used in many ways in the future and can evolve over time and is only .004444 $ETH to mint!
+        </br> It will be used in many ways in the future and can evolve over time and is 
+        <br>
+        </br> ONLY 0.004444 $ETH to mint!
         </p>
 
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
