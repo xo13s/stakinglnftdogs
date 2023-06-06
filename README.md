@@ -1,28 +1,20 @@
-# NFT Staking App
+# NFTEarth Staking Rewards Program
+
+The app is live at [NFT Staking Rewards](https://stake.nftearth.exchange/)
+
+
+URL: https://stake.nftearth.exchange/
 
 ## Introduction
 
-This example demonstrates a use of several thirdweb tools to create an NFT Staking application. In this example, users can stake their ERC721 NFTs and earn ERC20 tokens as a reward. It combines:
+This app is for holders of the Earthling NFT to be eligible to stake and earn $NFTE tokens as part of the Staking Rewards program. 
 
-- [NFT Drop contract](https://thirdweb.com/thirdweb.eth/DropERC721): To create a collection of NFTs that users can stake.
-- [Token contract](https://thirdweb.com/thirdweb.eth/TokenERC20): To create a token that users can earn as a reward for staking.
-- [NFT Staking contract](https://thirdweb.com/thirdweb.eth/NFTStake): To create a contract that users can stake their NFTs in, and earn tokens as a reward.
+![image](https://github.com/NFTEarth/nftearth-nft-staking/assets/29180454/c04a7cd3-7158-482e-a860-d2cd83a46fb0)
 
-## Using This Template
 
-Create a project using this example:
 
-```bash
-npx thirdweb create --template nft-staking-app
-```
+## Join our community!
 
-- Create an [NFT Drop](https://thirdweb.com/thirdweb.eth/DropERC721) contract using the dashboard.
-- Create a [Token](https://thirdweb.com/thirdweb.eth/TokenERC20) contract using the dashboard.
-- Create an [NFT Staking](https://thirdweb.com/thirdweb.eth/NFTStake) contract using the dashboard.
-- Approve the NFT Staking contract to transfer your tokens.
-- Deposit the tokens into the NFT Staking contract.
-- Update the information in the [contractAddresses.ts](./consts/contractAddresses.ts) file to
+For any questions, suggestions, join our Discord community at [https://discord.gg/nftearth](https://discord.gg/nftearth).
 
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+Follow us on Twitter: [Twitter](https:/twitter.com/NFTEarth_L2)
