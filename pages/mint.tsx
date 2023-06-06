@@ -9,12 +9,14 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
-
+      <h1 className={styles.h1}>Mint An Earthling NFT! </h1>
+      
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
-      </p>
+        Mint one of the limited supply Earthling NFTs! 
+        <br>
+        </br> It will be used in many ways in the future and can evolve over time and is only .004444 $ETH to mint!
+        </p>
+
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
       <Web3Button
@@ -29,7 +31,7 @@ const Mint: NextPage = () => {
           alert(error);
         }}
       >
-        Claim An NFT
+        Mint Now!
       </Web3Button>
     </div>
   );
