@@ -90,11 +90,7 @@ const Stake: NextPage = () => {
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Current Balance</h3>
               <p className={styles.tokenValue}>
-                <b>
-                  {!tokenBalance
-                  ? "Loading..."
-                  : ethers.utils.formatUnits(tokenBalance, 18)}
-                </b>
+    
                 <b>{tokenBalance?.displayValue}</b> {tokenBalance?.symbol}
               </p>
             </div>
